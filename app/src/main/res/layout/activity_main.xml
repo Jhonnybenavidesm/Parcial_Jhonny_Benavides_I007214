@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.asus_pc.parcial_jhonny_benavides_i007214.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <include layout="@layout/estrella" />
+        <include layout="@layout/ojo" />
+        <include layout="@layout/pupolaridad" />
+    </LinearLayout>
+
+    <include layout="@layout/seccion2" />
+    <include layout="@layout/seccion3" />
+
+
+</LinearLayout>
+
+
